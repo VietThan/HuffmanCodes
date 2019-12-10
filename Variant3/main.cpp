@@ -56,7 +56,7 @@ void printCodes(struct MinHeapNode* root, int arr[], int top, std::ofstream &Enc
 
 
 
-int main() {
+int main(int argc, char * argv[]) {
 
 //    char arr[] = {'f', 'e', 'd', 'c', 'b', 'a'};
 //    int freq[] = {45, 16, 13, 12, 9, 5};
@@ -65,23 +65,23 @@ int main() {
 //    int freq[] = { 5, 9, 12, 13, 16, 45 };
 
 
-    std::string InputFileName = "../input.txt";
-    std::string OutputFileName = "../output.txt";
-    std::string EncodeFileName = "../encode.txt";
+    std::string InputFileName ("../input.txt");
+    std::string OutputFileName ("../output.txt");
+    std::string EncodeFileName ("../encode");
 
-    int count(0);
-    int partition(5);
+    int total(0);
+    int partition(std::atoi(argv[1]));
 
 
     std::ifstream CountFile(InputFileName);
     char c;
     while(!CountFile.eof()){
         c = CountFile.get();
-        ++count;
+        ++total;
     }
     CountFile.close();
 
-    int max = count/partition;
+    int max = total/partition;
 
 
     std::ifstream InputFile (InputFileName);
@@ -97,16 +97,16 @@ int main() {
         return EXIT_FAILURE;
     }
 
-    count = 0;
+    int count = 0;
     int countChar (0);
 
     char c1;
     std::string symbol ("");
 
-    std::map<std::string, int> symbolFreq[5];
+    std::map<std::string, int> symbolFreq[partition];
 
 
-    while(!InputFile.eof() && count >= partition){
+    while(!InputFile.eof() && count < partition){
         c1 = InputFile.get();
         symbol = c1;
 
@@ -130,32 +130,45 @@ int main() {
 
     }
 
-    std::string arr[symbolFreq.size()];
-    int freq[symbolFreq.size()];
+    InputFile.close();
 
-    int i = 0;
 
-    for (auto itr = symbolFreq.begin(); itr != symbolFreq.end(); ++itr) {
-        OutputFile << itr->first;
-        OutputFile << '\t' << itr->second << '\n';
-        arr[i] =    itr->first;
-        freq[i] =   itr->second;
-        ++i;
+    for (int i = 0; i < count; ++i){
+        int size = symbolFreq[i].size();
+        std::string arr[size];
+        int freq[size];
+
+        int j = 0;
+
+        for (auto itr = symbolFreq[i].begin(); itr != symbolFreq[i].end(); ++itr) {
+            OutputFile << itr->first;
+            OutputFile << '\t' << itr->second << '\n';
+            arr[j] =    itr->first;
+            freq[j] =   itr->second;
+            ++j;
+        }
+
+        OutputFile << "\n==========\n\n";
+
+        std::string realEncodeFileName = EncodeFileName;
+        realEncodeFileName.append(std::to_string(i));
+        realEncodeFileName.append(".txt");
+
+
+        std::ofstream EncodeFile(realEncodeFileName);
+
+
+        // find the size
+        //int size = 6;
+
+        // build and print out the HuffmanCodes
+        HuffmanCodes(arr, freq, size, EncodeFile);
+
+        EncodeFile.close();
+
     }
 
-    std::ofstream EncodeFile(EncodeFileName);
-
-    InputFile.close();
     OutputFile.close();
-
-    // find the size
-    int size = symbolFreq.size();
-//    int size = 6;
-
-    // build and print out the HuffmanCodes
-    HuffmanCodes(arr, freq, size, EncodeFile);
-
-    EncodeFile.close();
 
     return 0;
 }
