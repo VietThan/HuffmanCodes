@@ -1,0 +1,416 @@
+
+
+	38
+
+B	1
+
+I	1
+
+Y	3
+
+‚	25
+ A	5
+ B	2
+ D	1
+ E	1
+ H	1
+ I	27
+ J	2
+ L	2
+ M	1
+ N	1
+ O	1
+ S	2
+ T	3
+ W	3
+ Y	13
+ a	43
+ b	12
+ c	11
+ d	13
+ e	15
+ f	12
+ g	11
+ h	18
+ i	17
+ j	5
+ k	7
+ l	22
+ m	21
+ n	7
+ o	19
+ p	11
+ q	1
+ r	7
+ s	27
+ t	46
+ u	1
+ v	1
+ w	44
+ y	37
+ ‚	17
+, 	20
+,‚	11
+-o	1
+.
+	8
+. 	30
+.‚	19
+0 	1
+48	1
+54	1
+? 	4
+?‚	14
+A 	1
+AD	1
+Al	2
+An	4
+Be	2
+Bo	1
+Bu	2
+Ch	1
+Do	1
+Eg	1
+Ev	4
+Go	2
+Hi	2
+Ho	1
+I 	14
+If	2
+In	1
+Is	2
+It	3
+I‚	4
+Jo	1
+Ju	1
+MT	1
+Mo	1
+My	1
+No	5
+Oh	1
+Or	2
+So	2
+Th	9
+Ti	1
+To	1
+Wa	1
+We	2
+Wh	5
+Yo	14
+Yu	3
+a 	11
+ab	5
+ac	5
+ad	2
+af	1
+ag	3
+ah	1
+ai	17
+al	9
+am	4
+an	25
+ap	5
+ar	15
+as	15
+at	18
+au	2
+av	5
+aw	1
+ay	4
+ba	4
+be	11
+bl	4
+bo	3
+br	1
+bu	3
+by	4
+c 	1
+ca	5
+cc	1
+ce	7
+ch	6
+ck	2
+co	6
+ct	3
+cu	2
+d 	24
+d,	6
+d.	21
+d?	5
+da	1
+dd	2
+de	4
+di	2
+dn	1
+do	4
+dr	1
+ds	1
+du	1
+dy	1
+e 	80
+e!	1
+e,	9
+e.	16
+e?	4
+ea	10
+eb	1
+ec	4
+ed	19
+ee	4
+ef	1
+ei	5
+el	8
+em	4
+en	14
+eo	1
+er	35
+es	12
+et	7
+ev	7
+ew	2
+ex	5
+ey	4
+e‚	2
+f 	7
+f,	1
+f-	1
+fa	5
+fe	8
+ff	1
+fi	3
+fo	7
+fr	3
+fu	1
+g
+	1
+g 	7
+g.	2
+g?	1
+ge	3
+gg	1
+gh	5
+gi	2
+gl	1
+gn	1
+go	3
+gr	3
+gs	1
+gu	2
+g‚	1
+h 	9
+h,	5
+h.	1
+ha	12
+he	26
+hi	10
+hn	2
+ho	8
+ht	3
+hu	1
+hy	1
+h‚	1
+ic	4
+id	17
+ie	7
+if	13
+ig	4
+ik	4
+il	13
+im	10
+in	38
+io	6
+ir	4
+is	7
+it	19
+iv	8
+iz	1
+ju	3
+k 	4
+k.	2
+ke	8
+ki	6
+kl	1
+l 	22
+l,	2
+l.	1
+l?	1
+la	7
+ld	2
+le	8
+lf	4
+li	11
+lk	1
+ll	17
+lm	1
+ln	1
+lo	10
+ls	2
+lt	1
+ly	7
+m 	5
+m.	1
+ma	11
+mb	2
+me	23
+mi	3
+mm	2
+mo	2
+my	1
+n 	20
+n,	2
+n.	3
+n?	2
+na	3
+nc	7
+nd	19
+ne	9
+ng	18
+ni	4
+nk	1
+nl	2
+no	10
+ns	4
+nt	12
+ny	3
+n‚	7
+o 	19
+o!	1
+o,	1
+oa	1
+od	3
+of	9
+oi	4
+ok	4
+ol	4
+om	8
+on	20
+oo	4
+op	1
+or	12
+os	2
+ot	6
+ou	66
+ov	1
+ow	6
+p 	1
+p,	2
+p.	1
+pa	2
+pe	12
+pi	1
+pl	2
+po	2
+pp	3
+pt	1
+r 	20
+r,	1
+ra	3
+rd	1
+re	44
+rf	1
+ri	11
+rk	1
+rl	4
+rn	3
+ro	5
+rs	5
+rt	3
+ru	1
+ry	9
+s 	31
+s,	1
+s.	6
+s?	1
+sa	12
+sc	2
+se	13
+sh	2
+si	3
+sk	4
+sl	1
+so	9
+ss	4
+st	14
+su	1
+s‚	1
+t 	46
+t,	3
+t.	5
+t?	2
+ta	5
+te	11
+th	35
+ti	10
+tl	3
+to	12
+tr	4
+ts	2
+tt	4
+tu	5
+tw	2
+ty	1
+t‚	7
+u 	20
+u,	1
+u.	3
+uc	1
+ue	2
+ug	4
+ui	1
+ul	2
+um	5
+un	5
+ur	13
+us	15
+ut	9
+u‚	10
+va	1
+ve	20
+vi	1
+vo	1
+w 	7
+w.	1
+wa	3
+we	6
+wh	12
+wi	3
+wl	1
+wn	3
+wo	3
+xi	1
+xp	2
+y 	21
+y,	1
+y.	2
+y:	1
+yb	1
+ye	1
+yo	34
+yt	1
+ze	1
+Äô	28
+Äú	42
+Äù	44
+Ä¶	5
+ôd	1
+ôl	2
+ôm	4
+ôr	7
+ôs	10
+ôt	3
+ôv	1
+úA	5
+úD	1
+úI	4
+úN	4
+úO	3
+úS	7
+úT	1
+úW	9
+úY	6
+úy	1
+ù
+	22
+ù 	16
+¶ 	2
+‚Ä	109

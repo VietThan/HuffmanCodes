@@ -1,0 +1,3 @@
+/home/vietthan/Documents/HuffmanCodes/Variant2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vietthan/Documents/HuffmanCodes/Variant2/cmake-build-debug/CMakeFiles/Variant2.dir
+/home/vietthan/Documents/HuffmanCodes/Variant2/cmake-build-debug/CMakeFiles/edit_cache.dir

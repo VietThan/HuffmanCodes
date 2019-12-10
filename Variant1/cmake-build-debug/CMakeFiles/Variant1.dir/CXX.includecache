@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vietthan/Documents/2019Fall/algorithms-CS3250/HuffmanCodes/Variant1/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+vector
+-
+map
+-
+fstream
+-
+

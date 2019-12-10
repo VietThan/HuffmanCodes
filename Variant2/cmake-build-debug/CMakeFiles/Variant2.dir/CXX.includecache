@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vietthan/Documents/HuffmanCodes/Variant2/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+vector
+-
+map
+-
+fstream
+-
+

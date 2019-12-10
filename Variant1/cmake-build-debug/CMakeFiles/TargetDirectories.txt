@@ -1,0 +1,3 @@
+/home/vietthan/Documents/2019Fall/algorithms-CS3250/HuffmanCodes/Variant1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vietthan/Documents/2019Fall/algorithms-CS3250/HuffmanCodes/Variant1/cmake-build-debug/CMakeFiles/Variant1.dir
+/home/vietthan/Documents/2019Fall/algorithms-CS3250/HuffmanCodes/Variant1/cmake-build-debug/CMakeFiles/edit_cache.dir
